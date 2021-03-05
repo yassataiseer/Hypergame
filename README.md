@@ -12,12 +12,10 @@ git clone https://github.com/yassataiseer/Hypergame.git
 ```
 #### Using git:
 ```sh
-First pull from the repo so you are notified of any changes:
-git pull origin Test
+First add to version control:
+git add .
 Next commit changes:
 git commit -m "commit_message{just tell what you changed}"
-Next add it to version control:
-git add .
 Next push the code to github
 git push 
 ```
