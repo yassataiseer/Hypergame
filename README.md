@@ -4,6 +4,12 @@
 
 - Never commit on Main branch until code is reviewed
 - Never force commit a file
+
+#### First time download
+``` 
+Just run this line:
+git clone https://github.com/yassataiseer/Hypergame.git
+```
 #### Using git:
 ```sh
 First pull from the repo so you are notified of any changes:
