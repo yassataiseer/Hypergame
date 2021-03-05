@@ -12,6 +12,7 @@ git clone https://github.com/yassataiseer/Hypergame.git
 ```
 #### Using git:
 ```sh
+git pull
 First add to version control:
 git add .
 Next commit changes:
