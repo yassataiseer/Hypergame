@@ -12,6 +12,6 @@ Next commit changes:
 git commit -m "commit_message{just tell what you changed}"
 Next add it to version control:
 git add .
-Next push it to "Test"
-git push origin Test(Name might change)
+Next push the code to github
+git push 
 ```
