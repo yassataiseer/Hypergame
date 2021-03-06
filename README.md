@@ -8,7 +8,7 @@
 #### First time download
 ``` 
 Just run this line:
-git clone https://github.com/yassataiseer/Hypergame.git
+git clone {{your repo link}}
 ```
 #### Using git:
 ```sh
