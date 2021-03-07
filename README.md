@@ -10,7 +10,7 @@
 Just run this line:
 git clone {{your repo link}}
 ```
-#### Using git:
+#### Using git(first time):
 ```sh
 git pull
 First add to version control:
@@ -20,3 +20,5 @@ git commit -m "commit_message{just tell what you changed}"
 Next push the code to github
 git push 
 ```
+#### After first fork & pull request:
+##### delete existing project folder them reclone everything and work then make changes
