@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public float cameraPanSpeed = 10;
-
+    public Vector2 panLimit;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +39,8 @@ public class CameraController : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") <0){//sees if scrolling up
             GetComponent<Camera> ().fieldOfView++;//makes vision better
         }
+        cameraPos.x = Mathf.Clamp(cameraPos.x, -panLimit.x, panLimit.x);
+        cameraPos.z = Mathf.Clamp(cameraPos.z, -panLimit.y, panLimit.y);
         transform.position = cameraPos;
     }
 }
