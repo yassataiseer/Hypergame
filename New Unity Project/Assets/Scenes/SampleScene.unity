@@ -519,6 +519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPanSpeed: 10
+  panLimit: {x: 5, y: 5}
 --- !u!81 &1275418083
 AudioListener:
   m_ObjectHideFlags: 0
