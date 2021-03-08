@@ -33,7 +33,12 @@ public class CameraController : MonoBehaviour
         {
             cameraPos.x -= Time.deltaTime * cameraPanSpeed;
         }
-
+        if (Input.GetAxis("Mouse ScrollWheel") >0){//checks to see if scrolling down
+            GetComponent<Camera> ().fieldOfView--;//lowers view
+        }
+        if (Input.GetAxis("Mouse ScrollWheel") <0){//sees if scrolling up
+            GetComponent<Camera> ().fieldOfView++;//makes vision better
+        }
         transform.position = cameraPos;
     }
 }
