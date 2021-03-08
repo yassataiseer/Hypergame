@@ -16,14 +16,14 @@ public class CameraController : MonoBehaviour
     void Update()
     {
 
-        Vector2 cameraPos = transform.position;
+        Vector3 cameraPos = transform.position;
 
         if (Input.GetKey("w")) {
-            cameraPos.y += Time.deltaTime * cameraPanSpeed;
+            cameraPos.z += Time.deltaTime * cameraPanSpeed;
         }
         if (Input.GetKey("s"))
         {
-            cameraPos.y -= Time.deltaTime * cameraPanSpeed;
+            cameraPos.z -= Time.deltaTime * cameraPanSpeed;
         }
         if (Input.GetKey("d"))
         {
